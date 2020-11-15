@@ -18,17 +18,31 @@ a{
     font-weight: bold;
     text-transform: uppercase;
 	font-size: 18px;
-	background-color: #dddddd;
+	background-color: #dddddd; 
 }
+
+
+a:hover {
+
+background-color:#808080;
+color:#dddddd; 
+}
+
+
+#category{
+	
+	color: rgb(255, 255, 255);
+	background-color: pink;
+}
+
 
 
 section
 {
-  padding-right: 25px;
-  margin-top: 10%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-top: 50%;
+  margin-left: 50px
   margin-bottom: 3%;
+  margin: 50px; 
   display: inline-block;
   background-color: #ffffff;
   box-shadow: 1px 1px 10px #aaa;
@@ -109,5 +123,4 @@ footer{
 	align-items: flex-start;
 	justify-content: space-between;
   }
-  
   
